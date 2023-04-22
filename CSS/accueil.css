@@ -1,0 +1,44 @@
+header{
+    padding: 20px;
+    text-align: center;
+    color: #238FD6;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+body{
+    text-decoration: none;
+    background-color: #FFF;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card{
+    height: 200px;
+    width: 500px;
+    background-color: #FFF;
+    padding: 20px;
+    
+}
+.card p {
+    text-transform: uppercase;
+    background-color: skyblue;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    /* Partie positionnement */
+    text-align: center;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+
+}

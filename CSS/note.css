@@ -1,0 +1,133 @@
+table.table-responsive {
+    margin:0 auto;
+    border-collapse: collapse;
+  }
+  table.table-responsive td, 
+  table.table-responsive th { 
+    border: 1px solid black;
+    text-align: center;
+    padding:5px;
+  }
+  table.table-responsive th { background-color: #666; color:#fff; }
+  table.table-responsive tr:nth-child(odd){ background-color: #eee; }
+  table.table-responsive td ins { display:none; }
+  
+  /* PHONE -> table change de mise en page */
+  @media (max-width: 768px) {
+    table.table-responsive, 
+    table.table-responsive tbody { 
+      display: block; 
+    }
+    table.table-responsive tr {
+      display: table;
+      width: 100%;
+    }
+    table.table-responsive thead,
+    table.table-responsive th,
+    table.table-responsive tr th {
+      display:none;
+    }
+    table.table-responsive td, 
+    table.table-responsive th { display: table-row; }
+    table.table-responsive td ins {
+      padding:5px;
+      background-color: #666; 
+      color:#fff;
+      display: table-cell;
+      width: 30%;
+      border-right:  1px solid black;   
+      text-decoration:none;
+    }
+   
+  }
+
+  .box{
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    background-color: rgb(4, 138, 216);
+    top: auto;
+    left: 50%;
+    bottom: auto;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .response{
+    margin-top: 10%;
+    position: relative;
+    font-size: large;
+
+  }
+  
+  h1{
+    margin-left: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .form{
+    margin: 10px;
+    padding: 3em;
+    padding-top: 4em;
+    top: 50%;
+    right: 50%;
+    
+  }
+
+  .cadre{
+    position : relative;
+    border-color: #bbb;
+    width:auto;
+    height : auto;
+    padding: 30px;
+    bottom: 3em;
+    margin : 5em;
+    left: 9em;
+    background-color : rgba(207, 207, 207, 0.279);
+    box-shadow: 1px 1px 4px #bbb;
+}
+
+.cadreNote{
+  position: relative;
+  border-color: #bbb;
+  width: 80%;
+  height : auto;
+  padding:30px;
+  bottom: 2em;
+  margin : 8em;
+  margin-top: 3em;
+  left: 10px;
+  background-color : rgba(207, 207, 207, 0.279);
+  box-shadow: 1px 1px 4px #bbb;
+}
+
+.bouton{
+  text-decoration: none;
+  display: block;
+  margin: 20px;
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px;
+  background-color:  rgb(4, 138, 216);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.boutonnote{
+  text-decoration: none;
+  display: block;
+  margin: 10px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color:  rgb(4, 138, 216);
+  color: #fff;
+  border-radius: 10px;
+}
+
+
+ 
